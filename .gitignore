@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+artifacts/
+reports/executed/
+reports/visual_checks/
+*.pt
+*.pth
+*.joblib

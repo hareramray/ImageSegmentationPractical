@@ -1,0 +1,137 @@
+{
+  "mode": "execute",
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "scikit-image": "0.26.0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "Pillow": "12.3.0",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "jupyterlab": "4.6.4",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "optional_downloads": "Not enabled by this runner; defaults only",
+  "results": [
+    {
+      "notebook": "00_start_here.ipynb",
+      "status": "passed",
+      "code_cells": 6,
+      "executed_cells": 6,
+      "figures": 2,
+      "seconds": 5.95
+    },
+    {
+      "notebook": "01_images_masks_coordinates.ipynb",
+      "status": "passed",
+      "code_cells": 9,
+      "executed_cells": 9,
+      "figures": 7,
+      "seconds": 4.28
+    },
+    {
+      "notebook": "02_thresholding.ipynb",
+      "status": "passed",
+      "code_cells": 9,
+      "executed_cells": 9,
+      "figures": 7,
+      "seconds": 3.39
+    },
+    {
+      "notebook": "03_morphology_components.ipynb",
+      "status": "passed",
+      "code_cells": 10,
+      "executed_cells": 10,
+      "figures": 8,
+      "seconds": 4.07
+    },
+    {
+      "notebook": "04_edges_watershed.ipynb",
+      "status": "passed",
+      "code_cells": 10,
+      "executed_cells": 10,
+      "figures": 8,
+      "seconds": 3.79
+    },
+    {
+      "notebook": "05_clustering_superpixels.ipynb",
+      "status": "passed",
+      "code_cells": 11,
+      "executed_cells": 11,
+      "figures": 9,
+      "seconds": 6.41
+    },
+    {
+      "notebook": "06_metrics_error_analysis.ipynb",
+      "status": "passed",
+      "code_cells": 11,
+      "executed_cells": 11,
+      "figures": 5,
+      "seconds": 4.02
+    },
+    {
+      "notebook": "07_classical_machine_learning.ipynb",
+      "status": "passed",
+      "code_cells": 11,
+      "executed_cells": 11,
+      "figures": 5,
+      "seconds": 6.4
+    },
+    {
+      "notebook": "08_pytorch_segmentation_basics.ipynb",
+      "status": "passed",
+      "code_cells": 12,
+      "executed_cells": 12,
+      "figures": 3,
+      "seconds": 9.16
+    },
+    {
+      "notebook": "09_unet_training.ipynb",
+      "status": "passed",
+      "code_cells": 12,
+      "executed_cells": 12,
+      "figures": 4,
+      "seconds": 8.34
+    },
+    {
+      "notebook": "10_real_data_transfer_learning.ipynb",
+      "status": "passed",
+      "code_cells": 11,
+      "executed_cells": 11,
+      "figures": 3,
+      "seconds": 9.01
+    },
+    {
+      "notebook": "11_instance_panoptic_prompting.ipynb",
+      "status": "passed",
+      "code_cells": 12,
+      "executed_cells": 12,
+      "figures": 6,
+      "seconds": 3.83
+    },
+    {
+      "notebook": "12_advanced_training_deployment.ipynb",
+      "status": "passed",
+      "code_cells": 13,
+      "executed_cells": 13,
+      "figures": 7,
+      "seconds": 9.39
+    }
+  ],
+  "compute": {
+    "platform": "Windows",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU"
+  },
+  "additional_checks": {
+    "ignored_label_loss_and_metrics": "passed",
+    "unet_odd_spatial_dimensions": "passed",
+    "torchvision_lraspp_random_weight_head_forward_backward": "passed",
+    "jupyterlab_startup_and_browser_route": "passed",
+    "representative_plot_visual_review": "passed"
+  }
+}
